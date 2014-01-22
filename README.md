@@ -6,8 +6,10 @@ Choose a newsletter template below, view and copy the source, then edit it local
 * Images should be added as *CMS Assets.*
 * If you're adding or removing the same code from a template week after week, let Jeremy know so he can update the master template, and save you some time.
 
-## The ServeReport
+### The ServeReport
 http://lawgical.github.io/newsletters/serve-report.html
 
-## PI News Round-Up
+---
+
+### PI News Round-Up
 *(in progress)*
