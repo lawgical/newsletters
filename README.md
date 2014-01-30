@@ -4,12 +4,14 @@ Choose a newsletter template below, view and copy the source, then edit it local
 
 * If you comment code, make sure to remove it before pasting in MailChimp. Some mail clients will show the commented code, which could be very embarrassing.
 * Images should be added as *CMS Assets.*
-* If you're adding or removing the same code from a template week after week, let Jeremy know so he can update the master template, and save you some time.
+* Paste the HTML in MailChimp, and remember to check the *Automatic CSS-inliner* check box.
 
-### The ServeReport
-http://lawgical.github.io/newsletters/serve-report.html
+If you're adding or removing the same code from a template week after week, let Jeremy know so he can update the master template, and save you some time.
 
 ---
 
-### PI News Round-Up
-*(in progress)*
+**The ServeReport**
+http://lawgical.github.io/newsletters/serve-report.html
+
+**PI News Round-Up**
+http://lawgical.github.io/newsletters/serve-report.html
