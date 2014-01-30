@@ -10,8 +10,8 @@ If you're adding or removing the same code from a template week after week, let 
 
 ---
 
-**The ServeReport**
+**The ServeReport**  
 http://lawgical.github.io/newsletters/serve-report.html
 
-**PI News Round-Up**
+**PI News Round-Up**  
 http://lawgical.github.io/newsletters/pi-news-round-up.html
