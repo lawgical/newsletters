@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width" name="viewport">
+
+<style type="text/CSS">
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 100%;
+    padding: 30px 0 70px;
+    background-color: #e2e2e2;
+    background-image: url("https://s3.amazonaws.com/lawgical/assets/data/1974/original.gif");
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #222;
+  }
+
+  .width {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+
+  .pre_header {
+    margin: 0 0 13px;
+    text-align: right;
+    color: #999;
+  }
+
+  .pre_header a {
+    color: #999;
+    text-decoration: none;
+  }
+
+  .header {
+    padding-top: 80px;
+    background-color: #0072b9;
+    font-size: 23px;
+    color: #fff;
+    line-height: 1;
+  }
+
+  .header img {
+    display: block;
+  }
+
+  .header a, .header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #999;
+  }
+
+  .footer a {
+    color: #999;
+  }
+
+  .box {
+    padding: 30px 35px;
+    background-color: #fff;
+  }
+
+  .cols {
+    overflow: hidden;
+  }
+
+  .col_half {
+    float: left;
+    width: 45%;
+    margin-right: 10%;
+  }
+
+  .col_one_third {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+  }
+
+  .col_last {
+    margin-right: 0;
+  }
+
+  a {
+    color: #0072b9;
+  }
+
+  a:hover {
+    color: #000;
+  }
+
+  .remove_border_bottom {
+    border-bottom: none;
+  }
+
+  p {
+    margin: 0 0 20px;
+  }
+
+  h1, h2, h3, h4 {
+    margin: 0 0 20px;
+    font-weight: bold;
+  }
+
+  h1 a, h2 a, h3 a, h4 a {
+    text-decoration: none;
+    border-bottom: 1px solid #0072b9;
+  }
+
+  h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
+    border-color: #000;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  small, .font_small {
+    font-size: 13px;
+  }
+
+  b, strong {
+    font-weight: bold;
+  }
+
+  .text_gray {
+    color: #9B9A93;
+  }
+
+  .text_center {
+    text-align: center;
+  }
+
+  .text_right {
+    text-align: right;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #d4d4d4;
+    clear: both;
+    height: 0;
+    margin: 48px 0;
+    padding: 0;
+  }
+
+  a img {
+    border: 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .img_episodes_cover_small {
+    width: 120px;
+  }
+
+  .img_episodes_cover_medium {
+    width: 220px;
+  }
+
+  .feat_image {
+    display: block;
+  }
+
+  .sponsors img {
+    width: 150px;
+    margin: 0 50px 30px;
+  }
+
+  .bg_blue {
+    background-color: #0072b9;
+  }
+
+  .bg_dark {
+    background-color: #313538;
+  }
+
+  .bg_blue, .bg_dark, .bg_blue a, .bg_blue a:hover {
+    color: #fff;
+    border-color: #fff !important;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 11px 23px;
+    border: none;
+    border-radius: 3px;
+    background-color: #0072b9;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .btn:hover {
+    color: #fff;
+  }
+
+  .break_small {
+    margin-bottom: 20px;
+  }
+
+  .break_medium {
+    margin-bottom: 40px;
+  }
+
+  .break_large {
+    margin-bottom: 80px;
+  }
+
+  .align_left {
+    float: left;
+    margin: 4px 20px 10px 0;
+  }
+
+  .align_right {
+    float: right;
+    margin: 4px 0 10px 20px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .col_half, .col_one_third {
+      float: none;
+      width: auto;
+      margin-right: 0;
+    }
+    .align_left, .align_right {
+      float: none !important;
+      margin: 0 0 20px !important;
+    }
+  }
+
+</style>
+
+</head>
+
+<body bgcolor="#e2e2e2">
+
+<div class="container">
+  <div class="width">
+
+
+
+
+    <div class="pre_header font_small text_center">
+      <p>
+        <a href="*|ARCHIVE|*">Web Version</a>
+        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="*|UNSUB|*">Unsubscribe</a>
+      </p>
+
+      <a href="https://itunes.apple.com/us/app/legal-talk-network/id830670941?ls=1&mt=8"><img alt="Available on the App Store" style="max-width:140px;" src="https://s3.amazonaws.com/lawgical/assets/data/2439/original.png"></a>
+
+      &nbsp;&nbsp;&nbsp;
+
+      <a href="https://play.google.com/store/apps/details?id=com.lawgical.android.lawgical"><img alt="Android App on Google Play" style="max-width:140px;" src="https://s3.amazonaws.com/lawgical/assets/data/2440/original.png"></a>
+    </div>
+
+
+
+
+
+
+    <div class="header"><a href="http://legaltalknetwork.com/"><img alt="LEGAL TALK NETWORK" src="https://s3.amazonaws.com/lawgical/assets/data/2443/original.png"></a></div>
+
+
+
+
+
+
+
+
+    <div class="box">
+      <h1>__________ Newsletter</h1>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+
+
+
+      <hr>
+
+
+
+
+
+
+
+      <h2 class="break_medium">Recent Episodes:</h2>
+
+
+
+
+      <a href="__________________________"><img alt="__________________________" class="align_left img_episodes_cover_small" src="http://placehold.it/350"></a>
+
+      <div class="font_small text_gray"><strong>__/__/2016</strong></div>
+
+      <h3><a href="__________________________">Lorem Ipsum Dolor Sit Amet Consectetur</a></h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <p>
+        <a href="__________________________"><img alt="Subscribe on iTunes" src="https://s3.amazonaws.com/lawgical/assets/data/2453/original.png"></a>
+      </p>
+
+      <div class="break_medium">&nbsp;</div>
+
+
+
+
+
+
+      <a href="__________________________"><img alt="__________________________" class="align_left img_episodes_cover_small" src="http://placehold.it/350"></a>
+
+      <div class="font_small text_gray"><strong>__/__/2016</strong></div>
+
+      <h3><a href="__________________________">Lorem Ipsum Dolor Sit Amet Consectetur</a></h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <p>
+        <a href="__________________________"><img alt="Subscribe on iTunes" src="https://s3.amazonaws.com/lawgical/assets/data/2453/original.png"></a>
+      </p>
+
+      <div class="break_medium">&nbsp;</div>
+
+
+
+
+
+
+
+      <a href="__________________________"><img alt="__________________________" class="align_left img_episodes_cover_small" src="http://placehold.it/350"></a>
+
+      <div class="font_small text_gray"><strong>__/__/2016</strong></div>
+
+      <h3><a href="__________________________">Lorem Ipsum Dolor Sit Amet Consectetur</a></h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <p>
+        <a href="__________________________"><img alt="Subscribe on iTunes" src="https://s3.amazonaws.com/lawgical/assets/data/2453/original.png"></a>
+      </p>
+
+      <div class="break_medium">&nbsp;</div>
+
+
+
+
+
+
+
+
+      <div class="cols">
+        <div class="col_half font_small">
+
+
+
+
+          <div class="text_gray"><strong>__/__/2016</strong></div>
+
+          <h4><a href="__________________________">Lorem Ipsum Dolor Sit Amet Consectetur</a></h4>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <p>
+            <a href="__________________________">Subscribe on iTunes</a>
+          </p>
+
+          <div class="break_medium">&nbsp;</div>
+
+
+
+
+
+
+
+          <div class="text_gray"><strong>__/__/2016</strong></div>
+
+          <h4><a href="__________________________">Lorem Ipsum Dolor Sit Amet Consectetur</a></h4>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+          <p>
+            <a href="__________________________">Subscribe on iTunes</a>
+          </p>
+
+          <div class="break_medium">&nbsp;</div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+        <div class="col_half col_last font_small">
+
+
+
+          <div class="text_gray"><strong>__/__/2016</strong></div>
+
+          <h4><a href="__________________________">Lorem Ipsum Dolor Sit Amet Consectetur</a></h4>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+          <p>
+            <a href="__________________________">Subscribe on iTunes</a>
+          </p>
+
+          <div class="break_medium">&nbsp;</div>
+
+
+
+
+
+
+
+          <div class="text_gray"><strong>__/__/2016</strong></div>
+
+          <h4><a href="__________________________">Lorem Ipsum Dolor Sit Amet Consectetur</a></h4>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+          <p>
+            <a href="__________________________">Subscribe on iTunes</a>
+          </p>
+
+          <div class="break_medium">&nbsp;</div>
+
+
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="box bg_blue">
+
+
+      <h2 class="break_medium">Upcoming Episodes:</h2>
+
+
+
+      <a href="__________________________"><img class="align_left img_episodes_cover_medium" alt="__________________________" src="http://placehold.it/350"></a>
+
+      <div class="font_small"><strong>Next Week!</strong></div>
+
+      <h3><a href="__________________________">Lorem Ipsum Dolor Sit Amet Consectetur</a></h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+      <p>
+        <a href="__________________________">Subscribe on iTunes</a>
+      </p>
+
+      <div class="break_medium">&nbsp;</div>
+
+
+
+
+
+
+
+
+
+      <a href="__________________________"><img class="align_left img_episodes_cover_medium" alt="__________________________" src="http://placehold.it/350"></a>
+
+      <div class="font_small"><strong>__/__/2016</strong></div>
+
+      <h3><a href="__________________________">Lorem Ipsum Dolor Sit Amet Consectetur</a></h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+      <p>
+        <a href="__________________________">Subscribe on iTunes</a>
+      </p>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="box">
+
+
+      <p class="break_medium">
+        <a href="https://docs.google.com/a/westinconsulting.com/forms/d/17T4TwctAj_EiaAVPoG5QY8ZXd7L5IBHPtrNeT_8RXcs/viewform"><img alt="Legal Talk Network" src="https://s3.amazonaws.com/lawgical/assets/data/2661/original.png"></a>
+      </p>
+
+
+
+
+
+      <h2 class="break_medium">News &amp; Announcements</h2>
+
+      <h3><a href="__________________________">Lorem Ipsum Dolor Sit Amet Consectetur</a></h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+      <hr>
+
+
+
+
+
+      <h3><a href="__________________________">Lorem Ipsum Dolor Sit Amet Consectetur</a></h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+
+
+
+
+
+
+
+      <div class="break_medium">&nbsp;</div>
+
+      <p class="text_center">
+        <a class="btn" href="http://legaltalknetwork.com/">Check Out More Podcasts and Episodes!</a>
+      </p>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="box bg_blue text_center">
+
+      <h2>Want to Listen for Free?</h2>
+
+      <p>Download the apps on iOS or Android right now using the App Store or Google Play links below!</p>
+
+      <a href="https://itunes.apple.com/us/app/legal-talk-network/id830670941?ls=1&mt=8"><img alt="Available on the App Store" style="max-width:140px;" src="https://s3.amazonaws.com/lawgical/assets/data/2439/original.png"></a>
+
+      &nbsp;&nbsp;&nbsp;
+
+      <a href="https://play.google.com/store/apps/details?id=com.lawgical.android.lawgical"><img alt="Android App on Google Play" style="max-width:140px;" src="https://s3.amazonaws.com/lawgical/assets/data/2440/original.png"></a>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="box sponsors text_center">
+
+      <h2 class="break_medium">Our Sponsors:</h2>
+
+
+      <a href="http://nala.org/"><img alt="National Association of Legal Assistants" src="https://s3.amazonaws.com/lawgical/assets/data/2445/original.jpg"></a>
+
+      <a href="http://www.krollontrack.com/"><img alt="Kroll Ontrack" src="https://s3.amazonaws.com/lawgical/assets/data/2446/original.jpg"></a>
+
+      <a href="http://www.pinow.com/"><img alt="PINow" src="https://s3.amazonaws.com/lawgical/assets/data/2447/original.jpg"></a>
+
+      <a href="https://www.goclio.com/"><img alt="Clio" src="https://s3.amazonaws.com/lawgical/assets/data/3132/original.png"></a>
+
+      <a href="http://www.serve-now.com/"><img alt="ServeNow" src="https://s3.amazonaws.com/lawgical/assets/data/2449/original.jpg"></a>
+
+      <a href="http://www.roberthalf.com/"><img alt="Robert Half Legal" src="https://s3.amazonaws.com/lawgical/assets/data/2450/original.jpg"></a>
+
+      <a href="http://solopracticeuniversity.com/"><img alt="Solo Practice University" src="https://s3.amazonaws.com/lawgical/assets/data/2451/original.jpg"></a>
+
+      <a href="http://casepacer.com/"><img alt="Case Pacer" src="https://s3.amazonaws.com/lawgical/assets/data/2487/original.png"></a>
+
+      <a href="http://paralegalonline.bu.edu/?cid=2121&amp;utm_medium=Display&amp;utm_source=LegalTalkNetwork&amp;utm_campaign=ParalegalVoice"><img alt="Boston University Paralegal Certificate Online" src="https://s3.amazonaws.com/lawgical/assets/data/2544/original.png"></a>
+
+      <a href="http://www.cloudmask.com/"><img alt="CloudMask" src="https://s3.amazonaws.com/lawgical/assets/data/2660/original.png"></a>
+
+      <a href="http://amicusattorney.com/"><img alt="Amicus Attorney" src="http://legaltalknetwork.com/wp-content/uploads/2015/09/Logo-Thin-2015-blk-200x60.jpg"></a>
+
+      <a href="http://www.ambest.com/directories/"><img alt="AM Best" src="http://legaltalknetwork.com/wp-content/uploads/2015/11/AMB-LOGO-BLACK-1-1.jpg"></a>
+
+      <a href="http://www.scorpionlegal.com/podcast"><img alt="Scorpion Legal" src="https://s3.amazonaws.com/lawgical/assets/data/3196/original.png"></a>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="box bg_dark text_center">
+
+
+      <h2 class="break_medium">We're Also On ...</h2>
+
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="center">
+            <a href="https://itunes.apple.com/us/podcast/legal-talk-network-law-news/id73802197?mt=2"><img alt="iTunes" style="width:86px;" src="https://s3.amazonaws.com/lawgical/assets/data/2442/original.png"></a>
+          </td>
+
+          <td align="center">
+            <a href="http://www.stitcher.com/podcast/legal-talk-network-law-news-and-legal-topics"><img alt="Stitcher" style="width:86px;" src="https://s3.amazonaws.com/lawgical/assets/data/2452/original.png"></a>
+          </td>
+
+          <td align="center">
+            <a href="https://soundcloud.com/legaltalknetwork"><img alt="SoundCloud" style="width:86px;" src="https://s3.amazonaws.com/lawgical/assets/data/2444/original.png"></a>
+          </td>
+
+          <td align="center">
+            <a href="http://www.iheart.com/show/Lawyer2Lawyer-Law-News-and-Leg/"><img alt="iHeart Radio" style="width:86px;" src="https://s3.amazonaws.com/lawgical/assets/data/2441/original.png"></a>
+          </td>
+        </tr>
+      </table>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="footer font_small">
+      <p>
+        Sent by <a href="http://legaltalknetwork.com/">Legal Talk Network</a>, 3120 Blake Street Denver, CO, 80205
+      </p>
+
+      <p>
+        <a href="*|UNSUB|*">Unsubscribe</a>
+        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="http://legaltalknetwork.com/contact/">Contact Us</a>
+      </p>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
